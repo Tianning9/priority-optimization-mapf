@@ -1,8 +1,8 @@
 import random
 import numpy as np
 from planner import simulate_order_once
-from operator import crossover
-from operator import mutate
+from optimization.Localoperator import crossover
+from optimization.Localoperator import mutate
 
 def genetic_algorithm(players, goals, power, env, pop_size=40, generations=80):
 
